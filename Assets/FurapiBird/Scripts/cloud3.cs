@@ -1,0 +1,27 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class cloud3 : MonoBehaviour
+{
+    // Speed of this cloud
+    protected float SPEED = 0.20f;
+    // Position where the cloud isn't in the sceen anymore
+    const float despawn_posX = -14.5f;
+
+    void Start()
+    {
+        
+    }
+
+    void Update()
+    {
+        // Set the moving speed of the cloud
+        transform.Translate( -SPEED * Time.deltaTime , 0, 0 );
+        // If the cloud exits the screnn, respawn it at the other side of the screen
+        if (transform.position.x < despawn_posX)
+        {
+            transform.position = new Vector2(14.5f,1.408464f);
+        }
+    }
+}

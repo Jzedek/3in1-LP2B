@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 39fd4a299145e5646b5ce0f51fcb0a46
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - prefab_brick: {fileID: 1467706353256731037, guid: 0ffc9cbbe5f77124cb13d32abd1fd16b, type: 3}
+  - prefab_life: {fileID: 2328223841913979470, guid: eb595e7b0ec4a414f9b3cfd7aca03e1e, type: 3}
+  - ball: {instanceID: 0}
+  - displayedText: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
